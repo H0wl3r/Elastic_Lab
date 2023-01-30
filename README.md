@@ -9,12 +9,26 @@ Enchance your analysis,detection and threat hunting skills in an Elastic focused
 
 # Test, Detect and Understand
 
-
-
 * Windows 10
 * ElasticSearch
 * Kibana
 * AtomicRedTeam
+
+# VM Credentials
+
+Windows 10 Login
+
+user: Elastic
+pass: elastic
+
+Elastic login
+user: elastic
+pass: elastic
+
+
+
+
+
 * ElasticAgent logging 
 * sysmon
 * powershell
