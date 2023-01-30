@@ -5,41 +5,60 @@
 
 # Elastic_Lab VM
 
-Enchance your analysis,detection and threat hunting skills in an Elastic focused lab enviroment. A windows 10 based VM backeed with ElasticSearch and Kibana, Loaded with AtomicRedTeam to run your red team scripts. 
+Enchance your analysis,detection and threat hunting skills in an Elastic focused lab enviroment. A windows 10 based VM backed with ElasticSearch and Kibana, Loaded with AtomicRedTeam to run your red team scripts. 
+
+Download the VM here
+
 
 # Test, Detect and Understand
 
-* Windows 10
-* ElasticSearch
-* Kibana
-* AtomicRedTeam
+**Test**      
+Test your team on there Blue team skills by Running AtomicRedTeam scripts against the enviroment or even try hack the VM with your exploits.
 
-# VM Credentials
+**Detect**    
+Utalising Elastic SIEM and Endpoint monitoring Detect as many TTPs by wriing your own rules or implementing Elastics own rule set.
 
-Windows 10 Login
+**Understand**     
+With the Elastic agent ingesting Sysmon, Powershell, wineventlogs, Endpoint Monitoring and Network traffic logs, deep dive and conduct full analysis recognising any IOCs.
 
-user: Elastic
-pass: elastic
-
-Elastic login
-user: elastic
-pass: elastic
-
-
-
-
-
-* ElasticAgent logging 
-* sysmon
-* powershell
-* wineventlogs
-* endpoint secuirty
-* netflow
-
-Minimum Requiments for VM
+# VM Minimum Requiments
 
 * 8 GB RAM
 * 4 CPU
 * 60GB Storage
+
+# VM Specs
+
+* Windows 10
+* ElasticSearch 8.6.1
+* Kibana 8.6.1
+* AtomicRedTeam
+
+# Logging
+
+* ElasticAgent
+* Sysmon
+* Powershell
+* Wineventlogs
+* Wndpoint Security
+* Netflow
+
+# VM Credentials
+
+**Windows 10 Login**  
+> **User:**     Elastic    
+> **pass:**     elastic  
+
+**Elastic login**   
+> **User:**   elastic  
+> **pass:**   elastic  
+
+
+
+
+
+
+
+
 
 
