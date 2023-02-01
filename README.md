@@ -15,7 +15,10 @@ Microsoft defender is deactivated and Elastic Agent acts as the primary AV only 
 <summary>**Download Elastic_Lab VM**</summary>
 <br>
 Link to | GoogleDrive |
-</details>
+</details>  
+
+<img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Elastic_homescreen.png" width=75% height=75%>
+
   
 ## Test, Detect and Understand
 
@@ -45,6 +48,7 @@ With the Elastic agent ingesting Sysmon, Powershell, wineventlogs, Endpoint Moni
 
 * ElasticAgent
 * Sysmon
+* [olafhartong Sysmon config](https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml)
 * Powershell
 * Wineventlogs
 * Wndpoint Security
