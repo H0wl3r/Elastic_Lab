@@ -5,11 +5,14 @@
 
 # Elastic_Lab VM
 
-Enchance your analysis,detection and threat hunting skills in an Elastic focused lab enviroment. A windows 10 based VM backed with ElasticSearch and Kibana, Loaded with AtomicRedTeam to run your red team scripts.  
+Enchance your analysis,detection and threat hunting skills in an Elastic focused lab enviroment. A windows 10 based VM backed with ElasticSearch and Kibana, Loaded with AtomicRedTeam to run your red team scripts.
+
+Elastic Services can take up to 5 minutes to load.
+Microsoft defender is deactivated and Elastic Agent acts as the primary AV only detecting threats and not preventing them.
   
   
 <details>
-<summary>**Dowload Elastic_Lab VM**</summary>
+<summary>**Download Elastic_Lab VM**</summary>
 <br>
 Link to | GoogleDrive |
 </details>
