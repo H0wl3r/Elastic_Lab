@@ -17,8 +17,7 @@ Microsoft defender is deactivated and Elastic Agent acts as the primary AV only 
 Link to | GoogleDrive |
 </details>  
 
-<img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Elastic_homescreen.png" width=75% height=75%>
-
+<img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/Elastic_homescreen.png" width=75% height=75%>  
   
 ## Test, Detect and Understand
 
@@ -29,7 +28,12 @@ Test your team on there Blue team skills by Running AtomicRedTeam scripts agains
 Utalising Elastic SIEM and Endpoint monitoring Detect as many TTPs by wriing your own rules or implementing Elastics own rule set.
 
 **Understand**     
-With the Elastic agent ingesting Sysmon, Powershell, wineventlogs, Endpoint Monitoring and Network traffic logs, deep dive and conduct full analysis recognising any IOCs.
+With the Elastic agent ingesting Sysmon, Powershell, wineventlogs, Endpoint Monitoring and Network traffic logs, deep dive and conduct full analysis recognising any IOCs.  
+
+<img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/discover.png" width=75% height=75%>  
+<img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/security.png" width=75% height=75%>  
+  
+  
 
 ### VM Minimum Requiments
 
