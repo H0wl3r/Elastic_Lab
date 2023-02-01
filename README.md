@@ -10,12 +10,8 @@ Enchance your analysis,detection and threat hunting skills in an Elastic focused
 Elastic Services can take up to 5 minutes to load.  
 Microsoft defender is deactivated and Elastic Agent acts as the primary AV only detecting threats and not preventing them.
   
-  
-<details>
-<summary>**Download Elastic_Lab VM**</summary>
-<br>
-Link to | GoogleDrive |
-</details>  
+**Download:** [Elastic_Lab.zip](https://mega.nz/file/OnhVybAJ#skZQ8ts4-PLVU_RLYg4f_YXC8iNUqWC7S3Wmcptd2u0)
+
 
 <img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/Elastic_homescreen.png" width=75% height=75%>  
   
