@@ -29,20 +29,7 @@ With the Elastic agent ingesting Sysmon, Powershell, wineventlogs, Endpoint Moni
 <img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/discover.png" width=75% height=75%>  
 <img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/security.png" width=75% height=75%>  
   
-  
-
-## VM Minimum Requiments
-
-* 8 GB RAM
-* 4 CPU
-* 60GB Storage
-
-### VM Specs
-
-* Windows 10
-* ElasticSearch 8.6.1
-* Kibana 8.6.1
-* AtomicRedTeam
+-------------------  
 
 ## Intergrations
 <details>
@@ -53,10 +40,6 @@ With the Elastic agent ingesting Sysmon, Powershell, wineventlogs, Endpoint Moni
 
 
 ## Data Streams
-
-Logs and data ingested.
-
-  -------------------  
 
 <details>
   <summary>Elastic Agent</summary>
@@ -148,6 +131,21 @@ Logs and data ingested.
 **Elastic login**   
 > **User:**   elastic  
 > **pass:**   elastic  
+
+
+## VM Minimum Requiments
+
+* 8 GB RAM
+* 4 CPU
+* 60GB Storage
+
+### VM Specs
+
+* Windows 10 (unlicensed)
+* Elastic Agent 8.6.1
+* ElasticSearch 8.6.1
+* Kibana 8.6.1
+* AtomicRedTeam
 
 
 
