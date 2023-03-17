@@ -31,7 +31,7 @@ With the Elastic agent ingesting Sysmon, Powershell, wineventlogs, Endpoint Moni
   
   
 
-### VM Minimum Requiments
+## VM Minimum Requiments
 
 * 8 GB RAM
 * 4 CPU
@@ -44,15 +44,100 @@ With the Elastic agent ingesting Sysmon, Powershell, wineventlogs, Endpoint Moni
 * Kibana 8.6.1
 * AtomicRedTeam
 
-### Logging
+## Intergrations
+<details>
+  <summary>Elastic Agent intergrations</summary>
+  <img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/intergrations.png" width=50% height=50%> 
+  
+</details>
 
-* ElasticAgent
-* Sysmon
-* [olafhartong Sysmon config](https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml)
-* Powershell
-* Wineventlogs
-* Wndpoint Security
-* Netflow
+
+## Data Streams
+
+Logs and data ingested.
+
+  -------------------  
+
+<details>
+  <summary>Elastic Agent</summary>
+  
+  -------------------  
+  
+  * elastic_agent
+  * elastic_agent.endpoint_security
+  * elastic_agent.filebeat
+  * elastic_agent.fleet_server
+  * elastic_agent.metricbeat
+  * elastic_agent.packetbeat
+  
+  -------------------  
+  
+  
+</details>
+
+<details>
+  <summary>Endpoint Security</summary>
+  
+  -------------------  
+  
+  * endpoint.events.file
+  * endpoint.events.security
+  * endpoint.events.network
+  * endpoint.events.registry
+  
+  -------------------  
+  
+  
+</details>
+
+<details>
+  <summary>Network Traffic</summary>
+  
+  -------------------  
+  
+  * network_traffic.dhcpv4
+  * network_traffic.dns
+  * network_traffic.flow
+  * network_traffic.http
+  * network_traffic.icmp
+  * network_traffic.tls
+  
+  -------------------  
+  
+</details>
+
+<details>
+  <summary>System / Sysmon  </summary>
+  
+  -------------------  
+  
+  Sysmon Configuration  
+  [olafhartong Sysmon config](https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml)  
+  
+  -------------------  
+  
+  * system.application
+  * system.security
+  * system.system
+  * windows.sysmon_operational  
+  
+  -------------------  
+  
+  
+</details>
+
+<details>
+  <summary>Threat Intel</summary>  
+  
+  -------------------  
+  
+  * ti_abusech.malware
+  * ti_abusech.malwarebazaar
+  * ti_abusech.url
+  
+  -------------------  
+  
+</details>
 
 ### VM Credentials
 
