@@ -5,28 +5,37 @@
 
 # Elastic_Lab VM
 
-Enchance your analysis,detection and threat hunting skills in an Elastic focused lab enviroment. A windows 10 based VM backed with ElasticSearch and Kibana, Loaded with AtomicRedTeam to run your red team scripts.
+Enchance your analysis, detection and threat hunting skills in an Elastic focused enviroment. A windows 10 based VM backed with ElasticSearch and Kibana, Loaded with AtomicRedTeam to run your red team scripts.
 
-Elastic Services can take up to 5 minutes to load.  
-Microsoft defender is deactivated and Elastic Agent acts as the primary AV only detecting threats and not preventing them.
-  
-**Download:** [Elastic_Lab.zip](https://mega.nz/file/OnhVybAJ#skZQ8ts4-PLVU_RLYg4f_YXC8iNUqWC7S3Wmcptd2u0)
-
-
-<img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/Elastic_homescreen.png" width=75% height=75%>  
-  
 ## Test, Detect and Understand
 
-**Test**      
-Test your team on there Blue team skills by Running AtomicRedTeam scripts against the enviroment or even try hack the VM with your exploits.
+### Test
+  
+Test your team on there Blue team skills, Running AtomicRedTeam scripts against the enviroment or even try hack the VM within our own network.
 
-**Detect**    
-Utalising Elastic SIEM and Endpoint monitoring Detect as many TTPs by wriing your own rules or implementing Elastics own rule set.
+### Detect
+  
+Utalising Elastic SIEM and Endpoint Secuirty to Detect as many TTPs by creating your own rules or implementing Elastics own rule set.
 
-**Understand**     
+### Understand
+  
 With the Elastic agent ingesting Sysmon, Powershell, wineventlogs, Endpoint Monitoring and Network traffic logs, deep dive and conduct full analysis recognising any IOCs.  
+   
+### Remember
 
+* Elastic Services can take up to 5 minutes to load.  
+* Microsoft defender is deactivated and Elastic Agent acts as the primary AV only detecting threats and not preventing them.  
+
+### Download
+
+[Elastic_Lab.zip](https://mega.nz/file/OnhVybAJ#skZQ8ts4-PLVU_RLYg4f_YXC8iNUqWC7S3Wmcptd2u0)
+
+-------------------  
+  
+<img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/Elastic_homescreen.png" width=75% height=75%>  
+  
 <img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/discover.png" width=75% height=75%>  
+  
 <img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/security.png" width=75% height=75%>  
   
 -------------------  
