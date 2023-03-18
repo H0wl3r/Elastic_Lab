@@ -29,6 +29,24 @@ With the Elastic agent ingesting Sysmon, Powershell, wineventlogs, Endpoint Moni
 ### Download
 
 [Elastic_Lab.zip](https://mega.nz/file/OnhVybAJ#skZQ8ts4-PLVU_RLYg4f_YXC8iNUqWC7S3Wmcptd2u0)
+  
+-------------------  
+   
+### Red Team Scenarios
+
+3 scenarios have been created and instructions to execute can be found in the scenarios section
+  
+-------------------  
+   
+  
+### Execute all atomic red team scripts
+  
+Open Powershell as administrator executing code below. This will generate large amounts of alerts and logs within Kibana. Code will roughly take around 30 minutes to execute.  
+
+
+```
+powershell.exe -exec Bypass -noexit -C "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Scripts/AtomicRedTeam_All.ps1')"
+```
 
 -------------------  
   
