@@ -33,6 +33,8 @@ With the Elastic agent ingesting Sysmon, Powershell, wineventlogs, Endpoint Moni
 -------------------  
 ### Start Up
 
+Once imported into VMWare ensure you create a snapshot prior to startingthe machine. This will allow you to restart the machine from a clean state prior to further red team engagments.
+
 On start up the Elastic Agent and Fleet Server need to align, sometimes it may require a manual restart.  
 Open Kibana and search for fleet managment.  
 
