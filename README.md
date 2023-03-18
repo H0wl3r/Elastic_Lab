@@ -36,12 +36,12 @@ With the Elastic agent ingesting Sysmon, Powershell, wineventlogs, Endpoint Moni
 On start up the Elastic Agent and Fleet Server need to align, sometimes it may require a manual restart.  
 Open Kibana and search for fleet managment.  
 
-<img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/Elastic_server.png" width=75% height=75%>  
+<img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/fleet_server.png" width=75% height=75%>  
 
-if it shows that the agent is offline restart the agent by running the `Restart_Elastic_Agent.bat` as administrator.  
+if it shows that the agent is offline / unhealhy you will need to restart the agent by running the `Restart_Elastic_Agent.bat` as administrator.  
   
-<img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/Elastic_server2.png" width=75% height=75%>  
-
+<img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/fleet_server2.png" width=75% height=75%>  
+  
 -------------------  
    
 ### Red Team Scenarios
