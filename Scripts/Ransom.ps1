@@ -1,4 +1,4 @@
-#Immport module
+# Import module
 Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
 
 # Removable media inserted
