@@ -547,6 +547,7 @@ $shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
 $shortcut.TargetPath = $TargetFile
 $shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
 $shortcut.Save()
+
 $TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
 $shortcutFile = "C:\Users\Elastic\Desktop\Ransom61.lnk"
 $WScriptShell = New-Object -ComObject WScript.Shell
@@ -626,3 +627,85 @@ $shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
 $shortcut.TargetPath = $TargetFile
 $shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
 $shortcut.Save()
+
+
+$TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
+$shortcutFile = "C:\Users\Elastic\Desktop\Ransom71.lnk"
+$WScriptShell = New-Object -ComObject WScript.Shell
+$shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
+$shortcut.TargetPath = $TargetFile
+$shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
+$shortcut.Save()
+
+$TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
+$shortcutFile = "C:\Users\Elastic\Desktop\Ransom72.lnk"
+$WScriptShell = New-Object -ComObject WScript.Shell
+$shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
+$shortcut.TargetPath = $TargetFile
+$shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
+$shortcut.Save()
+
+$TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
+$shortcutFile = "C:\Users\Elastic\Desktop\Ransom73.lnk"
+$WScriptShell = New-Object -ComObject WScript.Shell
+$shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
+$shortcut.TargetPath = $TargetFile
+$shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
+$shortcut.Save()
+
+$TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
+$shortcutFile = "C:\Users\Elastic\Desktop\Ransom74.lnk"
+$WScriptShell = New-Object -ComObject WScript.Shell
+$shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
+$shortcut.TargetPath = $TargetFile
+$shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
+$shortcut.Save()
+
+$TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
+$shortcutFile = "C:\Users\Elastic\Desktop\Ransom75.lnk"
+$WScriptShell = New-Object -ComObject WScript.Shell
+$shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
+$shortcut.TargetPath = $TargetFile
+$shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
+$shortcut.Save()
+
+$TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
+$shortcutFile = "C:\Users\Elastic\Desktop\Ransom76.lnk"
+$WScriptShell = New-Object -ComObject WScript.Shell
+$shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
+$shortcut.TargetPath = $TargetFile
+$shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
+$shortcut.Save()
+
+$TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
+$shortcutFile = "C:\Users\Elastic\Desktop\Ransom77.lnk"
+$WScriptShell = New-Object -ComObject WScript.Shell
+$shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
+$shortcut.TargetPath = $TargetFile
+$shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
+$shortcut.Save()
+
+$TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
+$shortcutFile = "C:\Users\Elastic\Desktop\Ransom78.lnk"
+$WScriptShell = New-Object -ComObject WScript.Shell
+$shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
+$shortcut.TargetPath = $TargetFile
+$shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
+$shortcut.Save()
+
+$TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
+$shortcutFile = "C:\Users\Elastic\Desktop\Ransom79.lnk"
+$WScriptShell = New-Object -ComObject WScript.Shell
+$shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
+$shortcut.TargetPath = $TargetFile
+$shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
+$shortcut.Save()
+
+$TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
+$shortcutFile = "C:\Users\Elastic\Desktop\Ransom80.lnk"
+$WScriptShell = New-Object -ComObject WScript.Shell
+$shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
+$shortcut.TargetPath = $TargetFile
+$shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
+$shortcut.Save()
+
