@@ -64,6 +64,8 @@ ACCEPTED HERE
 Send $300 worth of bitcoin to this address:
 12t9YDPgwueZ9NyMgw519p7AA8isjr6 SMw" > C:\Users\Elastic\Desktop\RANSOM_NOTE.txt
 
+Start-Sleep -S 5
+
 # Creation of files 
 Write-Host "[+] Creating Files" -ForegroundColor Green
 $TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
