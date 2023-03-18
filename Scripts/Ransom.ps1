@@ -58,7 +58,7 @@ ACCEPTED HERE
 Send $300 worth of bitcoin to this address:
 12t9YDPgwueZ9NyMgw519p7AA8isjr6 SMw" > C:\Users\Elastic\Desktop\YOUR_FILES.txt
 
-# Creation of locked files 
+# Creation of files 
 $TargetFile = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/online-ransom-note-demanding-payment.png"
 $shortcutFile = "C:\Users\Elastic\Desktop\Ransom.lnk"
 $WScriptShell = New-Object -ComObject WScript.Shell
@@ -708,4 +708,7 @@ $shortcut = $WScriptShell.CreateShortcut($ShortcutFile)
 $shortcut.TargetPath = $TargetFile
 $shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
 $shortcut.Save()
+
+# Encrypt files
+
 
