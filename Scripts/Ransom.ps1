@@ -2,7 +2,7 @@ Write-Host "[+] Set up" -ForegroundColor Green
 Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
 Start-Sleep -S 15
 
-Write-Host "[+] T1091"
+Write-Host "[+] T1091" -ForegroundColor Green
 Invoke-AtomicTest T1091
 Start-Sleep -S 15
 
