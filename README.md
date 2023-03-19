@@ -7,6 +7,10 @@
 
 Enchance your analysis, detection and threat hunting skills in an Elastic focused enviroment. A windows 10 based VM backed with ElasticSearch, Kibana and Loaded with AtomicRedTeam as well as custom red team scenario scripts.
 
+ 1. [Test, Detect, Understand](#test-detect-and-understand)
+ 2. [Download](#download)
+ 3. [Installation](#installation)
+
 ## Test, Detect and Understand
 
 ### Test
@@ -21,13 +25,18 @@ Utalising Elastic SIEM and Endpoint Secuirty to Detect as many TTPs by creating 
   
 With the Elastic agent ingesting Sysmon, Powershell, wineventlogs, Endpoint Monitoring and Network traffic logs, deep dive and conduct full analysis recognising any IOCs.  
    
-### Download
+## Download 
 
-[Elastic_Lab.zip](https://mega.nz/file/OnhVybAJ#skZQ8ts4-PLVU_RLYg4f_YXC8iNUqWC7S3Wmcptd2u0)
+|[Elastic Lab.zip](https://github.com/)|
+|---|
+
+-------------------
+
+## Installation 
   
 -------------------  
   
-### Remember
+## Remember
 
 :warning: Elastic Services can take up to 5 minutes to load.  
   
@@ -47,7 +56,7 @@ if it shows that the agent is offline / unhealhy you will need to restart the ag
   
 -------------------  
    
-### Red Team Scenarios
+## Red Team Scenarios
   
 Open Powershell as `Administrator` and execute the code below. 
 This will generate logs and alerts within Kibana. 
