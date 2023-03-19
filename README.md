@@ -30,6 +30,12 @@ With the Elastic agent ingesting Sysmon, Powershell, wineventlogs, Endpoint Moni
 |[Elastic Lab.zip](https://github.com/)|
 |---|
 
+| File | Algo | Hash |
+| ---- | ---- | ---- |
+| Elastic_lab.7z | SHA256 | 5527DCED40257A7C48C4310584B0BBBC5170F6C45949C9464347254AA59B9B14 |
+| Elastic_Lab.ovf | SHA256 | FD9789EEFE05963297369EE9524A423C7BC76E65FD271D41227BFFA4DDCEDE63 |
+
+
 -------------------
 
 ## Installation 
