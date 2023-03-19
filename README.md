@@ -1,5 +1,5 @@
 <p align="center">
-<img align="center" src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/elastic.png" width=50% height=50%>  
+<img align="center" src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/elastic.png">  
 </p>
 
 # Elastic_Lab VM
