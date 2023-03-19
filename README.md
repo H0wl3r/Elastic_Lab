@@ -1,7 +1,10 @@
+![GitHub-Mark-Light](https://logodix.com/logo/1687834.png#gh-dark-mode-only)
+![GitHub-Mark-Dark](https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/elasticsearch-logo.png#gh-light-mode-only)
 
-
-
-<img align=centre src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/elasticsearch-logo.png" src-dark="https://logodix.com/logo/1687834.png" width=75% height=75%>
+<picture>
+    <source srcset="[logo_white.png](https://logodix.com/logo/1687834.png)"  media="(prefers-color-scheme: dark)" width=75% height=75%>
+    <img src="[logo.png](https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/elasticsearch-logo.png)" width=75% height=75%>
+</picture>
 
 
 # Elastic_Lab VM
