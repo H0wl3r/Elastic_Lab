@@ -1,4 +1,5 @@
-![GitHub-Mark-Light](https://logodix.com/logo/1687834.png#gh-dark-mode-only)![GitHub-Mark-Dark](https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/elasticsearch-logo.png#gh-light-mode-only)
+![GitHub-Mark-Light](https://logodix.com/logo/1687834.png#gh-dark-mode-only)
+![GitHub-Mark-Dark](https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/elasticsearch-logo.png#gh-light-mode-only)
 
 # Elastic_Lab VM
 
