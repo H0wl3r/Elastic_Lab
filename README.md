@@ -1,8 +1,6 @@
-<picture>
-  <source srcset="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/elasticsearch-logo.png" media="(prefers-color-scheme:dark)" width=75% height=75%>
-  <img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/elastic-logo.png" width=75% height=75%>
-</picture>
-  
+<p align="center">
+<img align="center" src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/elastic.png" width=50% height=50%>  
+</p>
 
 # Elastic_Lab VM
 
