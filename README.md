@@ -9,7 +9,7 @@ Enchance your analysis, detection and threat hunting skills in an Elastic focuse
  1. [Test, Detect, Understand](#test-detect-and-understand)
  2. [Download](#download)
  3. [Installation](#installation)
- 4. [Remeber](#remember)
+ 4. [Remember](#remember)
  5. [Red Team Scenarios](#red-team-scenarios)
  6. [Intergrations](intergrations)
  7. [Data Streams](data-streams)
