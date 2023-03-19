@@ -1,5 +1,5 @@
 <p align="center">
-<img align="center" src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/elastic.png">  
+<img align="center" src="https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/elastic.png" width=50% height=50%>  
 </p>
 
 # Elastic_Lab VM
@@ -35,7 +35,7 @@ With the Elastic agent ingesting Sysmon, Powershell, wineventlogs, Endpoint Moni
    
 ## Download 
 
-|[Elastic Lab.zip](https://github.com/)|
+|[Elastic Lab.zip](https://drive.google.com/file/d/1fsInPUE8SxrypycRdK96OaksZO6ElcX_/view?usp=share_link)|
 |---|
 
 | File | Algo | Hash |
