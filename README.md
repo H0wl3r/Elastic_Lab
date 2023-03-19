@@ -1,11 +1,5 @@
 ![GitHub-Mark-Light](https://logodix.com/logo/1687834.png#gh-dark-mode-only)![GitHub-Mark-Dark](https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/elasticsearch-logo.png#gh-light-mode-only)
 
-<picture>
-    <source srcset="[logo_white.png](https://logodix.com/logo/1687834.png)"  media="(prefers-color-scheme: dark)" width=75% height=75%>
-    <img src="[logo.png](https://github.com/H0wl3r/Elastic_Lab/blob/main/Pictures/elasticsearch-logo.png)" width=75% height=75%>
-</picture>
-
-
 # Elastic_Lab VM
 
 Enchance your analysis, detection and threat hunting skills in an Elastic focused enviroment. A windows 10 based VM backed with ElasticSearch, Kibana and Loaded with AtomicRedTeam as well as custom red team scenario scripts.
